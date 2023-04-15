@@ -1,0 +1,22 @@
+nav{  
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px;
+    ul{
+        background-color: bisque;
+        padding: 10px;
+        display: flex;
+        list-style: none;
+        li{
+            margin: 10px;
+            a{
+                text-decoration: none;
+                color: $big-font-color;
+                &:hover{
+                    color: red;
+                }
+
+            }
+        }
+    }
+}
